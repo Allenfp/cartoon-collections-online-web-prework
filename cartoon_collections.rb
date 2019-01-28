@@ -10,8 +10,8 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  array.include? { |element|
-      element.length >= 4
+  array.any? { |element|
+      any.length = 4
   }
 
 end
